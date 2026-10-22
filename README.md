@@ -42,10 +42,10 @@ SEMIK; kayıt, moderasyon, yetkili takibi, sunucu güvenliği ve üye etkileşim
 
 | Bot | Görevi | PM2 adı |
 | --- | --- | --- |
-| **Executive** | Kayıt, moderasyon, istatistik, yetkili sistemi ve ekonomi | `ravgar_Mod1` |
-| **ExecutivePlus** | Sunucu ayarları, web paneli, üye panelleri ve kayıt/log olayları | `ravgar_Mod2` |
-| **Guard** | Koruma kararları, güvenli izinleri, limitler ve ihlal işlemleri | `ravgar_Guard` |
-| **Database** | Yedek oluşturma, geri yükleme ve Guard onarım kuyruğu | `ravgar_Database` |
+| **Executive** | Kayıt, moderasyon, istatistik, yetkili sistemi ve ekonomi | `semik_Mod1` |
+| **ExecutivePlus** | Sunucu ayarları, web paneli, üye panelleri ve kayıt/log olayları | `semik_Mod2` |
+| **Guard** | Koruma kararları, güvenli izinleri, limitler ve ihlal işlemleri | `semik_Guard` |
+| **Database** | Yedek oluşturma, geri yükleme ve Guard onarım kuyruğu | `semik_Database` |
 
 Botlar `ecosystem.config.js` ile yönetilir. Web paneli ExecutivePlus içinde çalışır; ayrı bir bot süreci gerektirmez.
 
@@ -290,7 +290,7 @@ Alternatif PM2 yönetimi:
 ```sh
 npx pm2 start ecosystem.config.js
 npx pm2 status
-npx pm2 logs ravgar_Mod2 --lines 50
+npx pm2 logs semik_Mod2 --lines 50
 ```
 
 Bu iki başlatma yönteminden kurulumunuza uygun olanını kullanın. Executive istatistik yazıcısı tek instance çalışmalıdır; mevcut PM2 yapılandırması buna göre ayarlanmıştır.
