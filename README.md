@@ -1,3 +1,10 @@
+**Kaynak notu:** Proje mevcut Positron/Aris bot altyapısı üzerinde geliştirilmiştir. Kaynak dosyalardaki özgün atıflar korunur. Paket metadatasında yazar `Positron`, lisans `ISC` olarak belirtilmiştir.
+
+**Bot ile alakalı herhangi bir sorun-telif olursa eğer discord - semikinc. hesabından ulaşabilirsiniz.**
+
+**Bot şuan da aktif olarak gelişim aşamasındadır. Bittikten sonra ücretsiz bir şekilde tam işlevsel paylaşılacaktır.**
+
+
 <div align="center">
 
 # SEMIK · Discord Bot Sistemi
@@ -340,5 +347,3 @@ Ek testler `tests/` ve `tests/shield/` altındadır. Birim testleri canlı Disco
 ---
 
 **Teknoloji:** Discord.js v14 · Node.js · MongoDB/Mongoose · Express · Canvas · PM2
-
-**Kaynak notu:** Proje mevcut Positron/Aris bot altyapısı üzerinde geliştirilmiştir. Kaynak dosyalardaki özgün atıflar korunur. Paket metadatasında yazar `Positron`, lisans `ISC` olarak belirtilmiştir.
