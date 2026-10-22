@@ -9,7 +9,7 @@
 
 <div align="center">
 
-# SEMIK · Discord Bot Sistemi
+# semik · Discord Bot Sistemi
 
 **Sunucu yönetimi, Guard koruması, web paneli ve coin ekonomisi tek projede.**
 
@@ -26,7 +26,7 @@
 
 ## Kapsam
 
-SEMIK; kayıt, moderasyon, yetkili takibi, sunucu güvenliği ve üye etkileşimini dört bot üzerinden yöneten bir Discord projesidir. Discord içindeki butonlu paneller, tarayıcıdan erişilen yönetim ekranı ve dinamik canvas görselleri aynı veri altyapısıyla çalışır.
+Kayıt, moderasyon, yetkili takibi, sunucu güvenliği ve üye etkileşimini dört bot üzerinden yöneten bir Discord projesidir. Discord içindeki butonlu paneller, tarayıcıdan erişilen yönetim ekranı ve dinamik canvas görselleri aynı veri altyapısıyla çalışır.
 
 | Sistem | Neler sunar? |
 | --- | --- |
@@ -260,7 +260,7 @@ Token ve özel anahtarlarınızı herkese açık repoya eklemeyin. README örnek
 Replica set bağlantı örneği:
 
 ```text
-mongodb://127.0.0.1:27017/semik_bots?replicaSet=semik-rs
+mongodb://127.0.0.1:27017/_bots?replicaSet=-rs
 ```
 
 Replica set adı ve veritabanı adı kendi kurulumunuzla eşleşmelidir. Tek düğümlü replica set transaction desteği sağlar; yedek sunucu sağlamaz.
