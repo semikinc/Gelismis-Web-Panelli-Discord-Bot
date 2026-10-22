@@ -4,6 +4,8 @@
 
 **Bot şuan da aktif olarak gelişim aşamasındadır. Bittikten sonra ücretsiz bir şekilde tam işlevsel paylaşılacaktır.**
 
+**Botlar tamamen https://github.com/ravgar/Discord.js-v14-Setup-Bot bu repoya aittir. Sadece alınıp üzerinde güncelleme ve değişim yapılmıştır.**
+
 
 <div align="center">
 
